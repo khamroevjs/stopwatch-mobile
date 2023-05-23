@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Stopwatch"
-include ':app'
+include(":app")

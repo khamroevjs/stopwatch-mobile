@@ -10,7 +10,7 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.*
 
-class StopWatch() {
+class StopWatch {
 
     var formattedTime by mutableStateOf("00:00:0000")
     private var coroutineScope = CoroutineScope(Dispatchers.Default)
