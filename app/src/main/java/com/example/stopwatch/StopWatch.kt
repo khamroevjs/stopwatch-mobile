@@ -12,7 +12,7 @@ import java.util.*
 
 class StopWatch {
 
-    var formattedTime by mutableStateOf("00:00:0000")
+    var formattedTime by mutableStateOf("00:00:000")
     private var coroutineScope = CoroutineScope(Dispatchers.Default)
     private var isActive = false
 
